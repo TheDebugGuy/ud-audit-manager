@@ -20,8 +20,8 @@ Unlike external site auditors that run heavy network crawlers, require paid subs
 
 ## Screenshots
 
-### Audit Results
-![Audit Results](assets/images/audit-results.png)
+### Dashboard Overview
+![Dashboard Overview](assets/images/dashboard.png)
 
 ### Reports
 ![Reports](assets/images/reports.png)
