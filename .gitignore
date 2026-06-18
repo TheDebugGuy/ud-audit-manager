@@ -1,0 +1,43 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Frontend Dependencies & Build Outputs
+node_modules/
+vendor/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build & Archives
+*.zip
+*.tar.gz
+*.rar
+build/
+dist/
+coverage/
+
+# Logs and Temps
+*.log
+*.tmp
+*.temp
+ud-audit-manager.log
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.project
+.settings/
+.buildpath
+
+# PHP Unit & Code Sniffer Cache
+.phpunit.result.cache
+.phpcs-cache

@@ -1,0 +1,35 @@
+# Copyright (C) 2026 Antigravity
+# This file is distributed under the same license as the UD Audit Manager plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: UD Audit Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ud-audit-manager\n"
+"Last-Translator: Antigravity <support@ud-audit-manager.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-03 00:00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Domain: ud-audit-manager\n"
+
+#: ud-audit-manager.php:120
+msgid "UD Audit Manager Setup"
+msgstr ""
+
+#: includes/REST_API.php:165
+msgid "Scan engine is missing."
+msgstr ""
+
+#: includes/REST_API.php:240
+msgid "Audit run not found."
+msgstr ""
+
+#: includes/REST_API.php:315
+msgid "Fix manager is missing."
+msgstr ""
+
+#: includes/REST_API.php:350
+msgid "Invalid cleanup type specified."
+msgstr ""

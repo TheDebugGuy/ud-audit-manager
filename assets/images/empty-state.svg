@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="160" height="160">
+  <!-- Outer dashed track ring -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="8,6" opacity="0.4"/>
+  
+  <!-- Outer glowing background -->
+  <circle cx="100" cy="100" r="45" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- Primary Card Shield -->
+  <rect x="70" y="65" width="60" height="70" rx="10" fill="none" stroke="#6366f1" stroke-width="4"/>
+  
+  <!-- Horizontal Text lines inside card -->
+  <line x1="82" y1="82" x2="118" y2="82" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="82" y1="94" x2="110" y2="94" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Circle checkmark indicator -->
+  <circle cx="120" cy="120" r="18" fill="#10b981"/>
+  <path d="M112 120 l5 5 l10 -10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

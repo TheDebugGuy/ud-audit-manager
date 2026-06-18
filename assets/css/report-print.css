@@ -1,0 +1,137 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	color: #333333;
+	line-height: 1.5;
+	background: #ffffff;
+	padding: 40px;
+	margin: 0;
+}
+.print-container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.print-header {
+	border-bottom: 2px solid #e2e8f0;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.print-title h1 {
+	margin: 0 0 6px 0;
+	font-size: 26px;
+}
+.print-title p {
+	margin: 0;
+	color: #718096;
+	font-size: 14px;
+}
+.overall-score-box {
+	background: #f7fafc;
+	border: 1px solid #e2e8f0;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+	min-width: 140px;
+}
+.overall-score-val {
+	font-size: 40px;
+	font-weight: 700;
+	color: #4f46e5;
+	line-height: 1;
+	margin-bottom: 4px;
+}
+.overall-score-label {
+	font-size: 12px;
+	color: #718096;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.print-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	margin-bottom: 30px;
+}
+.print-card {
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	padding: 20px;
+}
+.print-card h3 {
+	margin: 0 0 15px 0;
+	font-size: 16px;
+	border-bottom: 1px solid #e2e8f0;
+	padding-bottom: 8px;
+}
+.stats-list, .scores-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.stats-item, .scores-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0;
+	border-bottom: 1px dashed #edf2f7;
+	font-size: 14px;
+}
+.stats-item:last-child, .scores-item:last-child {
+	border-bottom: none;
+}
+.issue-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.badge-critical, .badge-high { background: #fed7d7; color: #9b2c2c; }
+.badge-medium { background: #feebc8; color: #9c4221; }
+.badge-low { background: #ebf8ff; color: #2b6cb0; }
+.badge-info { background: #e2e8f0; color: #4a5568; }
+
+.findings-section h2 {
+	font-size: 20px;
+	border-bottom: 2px solid #4f46e5;
+	padding-bottom: 8px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.findings-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+.findings-table th {
+	background: #f7fafc;
+	border-bottom: 2px solid #e2e8f0;
+	padding: 10px;
+	text-align: left;
+	font-size: 13px;
+	color: #4a5568;
+}
+.findings-table td {
+	border-bottom: 1px solid #edf2f7;
+	padding: 12px 10px;
+	font-size: 13px;
+}
+.finding-title {
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+.finding-desc {
+	color: #718096;
+	font-size: 12px;
+}
+
+@media print {
+	body {
+		padding: 0;
+	}
+	.print-card, .findings-table tr {
+		page-break-inside: avoid;
+	}
+}
